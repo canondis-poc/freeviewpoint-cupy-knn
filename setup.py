@@ -42,7 +42,7 @@ setup(
     packages=find_packages(exclude=['examples']),
     install_requires=[
         'numpy',
-        'cupy>=10.2.0',
+        'cupy-cuda11x==12.0.0',
     ],
     extras_require={
         'examples': ['plyfile'],
